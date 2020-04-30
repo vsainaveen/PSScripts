@@ -1,4 +1,4 @@
-﻿<#
+<#
   .SYNOPSIS
   Retrieves logical disk used information from one or more computers.
 
@@ -9,18 +9,21 @@
   The computer name, or names, Sender, Recipients and Smtpserver fields should be updated in input.csv. NOTE- Except servers field, rest all should declare in first row. Also, multiple recipients must be declared with ';' seperation in a single line.
 
   .INPUTS
-  Update all parameters in input.csv file. e.g., SERVER1,a@abc.com,a@abc.com;b@abc.com,smtp.abc.com
+  None. You cannot pipe objects to Update-Month.ps1.
 
   .OUTPUTS
-  One CSV file will generate diskutilization.csv.
+  None. Update-Month.ps1 does not generate any output.
 
   .EXAMPLE
-  .\disk.ps1
+  .\disk.ps1 #csv - SERVER1,a@abc.com,a@abc.com;b@abc.com,smtp.abc.com
+
+  .LINK
+  https://github.com/vsainaveen/PSScripts
 
   .NOTES
-  AUTHOR  -SAI NAVEEN VANAPALLI
-  CREATED -30-04-2020
-  VERSION -1.0
+  AUTHOR  : SAI NAVEEN VANAPALLI
+  CREATED : 30-04-2020
+  VERSION : 1.0
 #>
 
 
