@@ -1,0 +1,3 @@
+Servers,Sender,Recipients,SmtpServer
+SERVER1,a@abc.com,a@abc.com;b@abc.com,smtp.abc.com
+SERVER1,,,
