@@ -9,13 +9,13 @@
   The computer name, or names, Sender, Recipients and Smtpserver fields should be updated in input.csv. NOTE- Except servers field, rest all should declare in first row. Also, multiple recipients must be declared with ';' seperation in a single line.
 
   .INPUTS
-  None. You cannot pipe objects to Update-Month.ps1.
+  Update all parameters in input.csv file. e.g., SERVER1,a@abc.com,a@abc.com;b@abc.com,smtp.abc.com
 
   .OUTPUTS
-  None. Update-Month.ps1 does not generate any output.
+  One CSV file will generate diskutilization.csv.
 
   .EXAMPLE
-  .\disk.ps1 #csv - SERVER1,a@abc.com,a@abc.com;b@abc.com,smtp.abc.com
+  .\disk.ps1
 
   .NOTES
   AUTHOR  -SAI NAVEEN VANAPALLI
